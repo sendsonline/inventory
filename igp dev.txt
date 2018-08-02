@@ -1,0 +1,10 @@
+cannot update stocks form now trigger doesn't function
+
+
+INSERT INTO tbl_stock(id,product_id,stock_qty)VALUES('',NEW.id,0)
+
+
+DELETE FROM tbl_stock WHERE product_id = OLD.id
+
+
+*still can't find profit

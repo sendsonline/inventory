@@ -1,0 +1,275 @@
+
+/*Fonts*/
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue.eot');
+    src: url('../fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeue.woff') format('woff'),
+    url('../fonts/HelveticaNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue-Bold.eot');
+    src: url('../fonts/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeue-Bold.woff') format('woff'),
+    url('../fonts/HelveticaNeue-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+body{
+    font-family: 'Helvetica Neue';
+}
+.outer-wrapper{
+    overflow: hidden;
+}
+.navbar-bg{
+    padding: 0px;
+    background-color: #337ab7 !important;
+}
+
+a.navbar-brand, ul li a{
+     color: #fff !important;
+     /*font-weight: bold;*/
+     font-size: 1.5rem;
+ }
+
+.navbar-collapse .navbar-nav li{
+    display: block;
+}
+.navbar-brand{
+    display: block;
+}
+.open{
+    background-color: inherit; 
+}
+ul.nav li a:hover{
+    color: #000 !important;
+
+}
+
+.dropdown-menu li a{
+    color: #000 !important;
+}
+.login-form{
+    margin: 50px 0px 0px 0px;
+}
+.margin-login{
+    margin: 50px 10px 40px 10px;
+}
+.icon-bar{
+    color: #fff;
+    background-color: #fff;
+}
+
+.panel-heading{
+    padding: 3px;
+    background-color: rgba(39,173,46,0.5);
+
+}
+.panel-heading h2{
+    font-weight: bold;
+}
+.panel-body{
+    padding: 40px;
+}
+.time-sheet td, .break{
+    font-size: 1.1rem;
+}
+.dropdown-menu{
+    padding: 10px 0px;
+}
+
+.scroll{
+    overflow-y: scroll;
+    height: 500px;
+}
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+.signup{
+    text-decoration: none;
+}
+.modal-content{
+    border:3px solid rgb(39,173,46);
+}
+.modal-header{
+    background-color: rgb(39,173,46);
+
+    display: block;
+}
+.modal-body {
+    padding: 50px 75px 0px 75px;
+}
+.none{
+    color: red;
+}
+p#prod-id{
+    color: red;
+}
+.errormsg{
+    color: red;
+}
+.brand-logo{
+    width: 60px;
+    margin-top: -10px;
+}
+
+tr th{
+    background-color: #337ab7;
+    text-align: center;
+    color: #fff;
+}
+table thead tr th, table tbody tr td{
+    border: 1px solid rgba(0,0,0,0.3) !important;
+}
+table{
+    padding: 0px !important;
+}
+@media only screen and (max-width:766px) {
+
+}
+#bought{
+    z-index: 10;
+}
+
+.out-of-stock{
+    position: absolute;
+    top: 500px;
+    z-index: 1000;
+    display: none;
+}
+.navbar-bg{
+    background-color: #505050;
+}
+.margin20{
+    margin: 20px;
+}
+.margin10{
+    margin: 10px;
+}
+.container-fluid{
+    margin: 10px 30px;
+}
+.btn{
+    font-weight: bolder;
+}
+.transact-header{
+    padding: 1px 10px;
+    background-color: #337ab7;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.transact-header h4{
+    font-weight: bolder;
+}
+.transact-header h5{
+    font-weight: bolder;
+}
+.transact-wrapper{
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-top: 10px;
+}
+.transact-body{
+    padding: 10px 30px;
+}
+.sale-body{
+    padding: 10px 5px;
+}
+.sale-footer{
+    padding: 2px 10px;
+    background-color: rgba(0,0,0,0.06);
+}
+.trans thead tr th{
+    border: 0px solid rgba(0,0,0,0) !important;
+    background-color: rgba(0,0,0,0) !important;
+}
+.trans tbody tr td{
+    border: 0px solid rgba(0,0,0,0) !important;
+}
+.sale-action{
+    padding: 10px 20px;
+}
+#receipt, #transact-done{
+    display: none;
+}
+.text-bold{
+    font-weight: bolder;
+}
+.login-wrapper{
+
+}
+.login-header{
+    padding: 2px 20px;
+    text-align: center;
+    background-color: #059df5;
+}
+.login-header h3{
+    color: #fff;
+    font-weight: bolder;
+}
+.login-body{
+    padding: 20px 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.btn-custom{
+    border: 0px;
+    background-color: #059df5;
+    padding: 5px 20px;
+    border-radius: 0px;
+    color: #fff;
+}
+.btn-custom:hover{
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.5);
+    color: #fff;
+}
+.login-inputs{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 0px;
+    padding: 5px 20px;
+    width: 100%;
+}
+.login-inputs:focus{
+    border: 1px solid #038ede;
+}
+.btn{
+    border-radius: 0px;
+    /*border: 0px;*/
+}
+.margin-top50{
+    margin-top: 53px;
+}
+.margin-top30{
+    margin-top: 30px
+}
+.margin-top25{
+    margin-top: 25px
+}
+.panel{
+    border-radius: 0px;
+}
+.panel-heading{
+    padding: 1px;
+}
+.form-control, .input-group-addon{
+    border-radius: 0px;
+}
+.table-header h4{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.input-group-addon{
+    border-radius: 0px;
+    background-color: #337ab7;
+    color: #fff;
+}
+.active-link a{
+    background-color: #EEEEEE;
+    color: #000 !important;
+}
+.active-link:hover a:hover{
+    color: #000 !important;
+    
+}
+
