@@ -5,6 +5,7 @@ if(!isset($_SESSION['id'])){
 }
 include '../header.php';
 include '../connection/connect.php';
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
 ?>
 
 <div class="container-fluid">
